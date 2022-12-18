@@ -1,0 +1,48 @@
+nav,
+.nav {
+    color: white;
+    background: linear-gradient(aqua, black);
+}
+
+main,
+.main {
+    background: linear-gradient(aqua, rgb(211, 25, 25));
+}
+
+.banner {
+    width: 100%;
+    height: auto;
+}
+
+.btn1 {
+    color: green;
+    background-color: red;
+}
+
+.btn2 {
+    color: crimson;
+    background-color: green;
+}
+
+footer,
+.footer {
+    background: linear-gradient(to top, aqua, black);
+    color: white;
+}
+
+.flashy-text {
+    color: aqua;
+    animation: blink-animation 0.2s steps(5, start) infinite;
+    -webkit-animation: blink-animation 0.2s steps(5, start) infinite;
+}
+
+@keyframes blink-animation {
+    to {
+        visibility: hidden;
+    }
+}
+@-webkit-keyframes blink-animation {
+    to {
+        visibility: hidden;
+    }
+}
